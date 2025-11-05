@@ -1,4 +1,4 @@
-# Education MUST Be Free: Cybersecurity Library
+# Self-Study MUST Be Free: Cybersecurity Library
 
 A curated shelf of cybersecurity, hacking, and supporting fundamentals collected so that anyone can self-study without a paywall. The books live in the repository root; this guide explains how they fit together and how to chart your own path.
 
