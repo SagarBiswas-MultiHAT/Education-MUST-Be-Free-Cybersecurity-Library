@@ -1,19 +1,20 @@
 # Education MUST Be Free: Cybersecurity Library
 
-A curated shelf of cybersecurity, hacking, and supporting fundamentals collected so that anyone can self-study without a paywall. The books live in the Google Drive's root folder; this guide explains how they fit together and how to chart your own path.
+A curated shelf of cybersecurity, hacking, and supporting fundamentals collected so that anyone can self-study without a paywall. The books live in the repository root; this guide explains how they fit together and how to chart your own path.
 
 ### Google Drive Link: https://drive.google.com/drive/folders/1eocSz3hnalhkdJ_LfNKuXWADwRp_M23L?usp=sharing
 
 ## How to Use This Library
 
 - Start with the **Supporting / Prerequisite** titles if you are brand new to programming, operating systems, or networking.
-- Within every domain, books are ordered **beginner 02 intermediate 02 advanced** so you can ramp up smoothly.
+- Within every domain, books are ordered **beginner -> intermediate -> advanced** so you can ramp up smoothly.
 - Notes stay tightly coupled to each title; there are no hidden assumptions or external prerequisites beyond what is stated.
-- Mix and match based on your goals, but resist the urge to skip foundations02they unlock every advanced topic here.
+- Mix and match based on your goals, but resist the urge to skip foundations; they unlock every advanced topic here.
 - If you notice an essential title missing, open an issue or PR so the community can keep this list living.
 
 ## Table of Contents
 
+0. [Supporting / Prerequisite Resources](#supporting--prerequisite-resources)
 1. [Foundations / General Cybersecurity & Mindset](#1-foundations--general-cybersecurity--mindset)
 2. [Penetration Testing / Red Team Methodology](#2-penetration-testing--red-team-methodology)
 3. [Web Application Security & Bug Bounties](#3-web-application-security--bug-bounties)
@@ -33,6 +34,26 @@ A curated shelf of cybersecurity, hacking, and supporting fundamentals collected
 17. [Contributing](#contributing)
 
 ---
+
+## Supporting / Prerequisite Resources
+
+- **Programming Fundamentals**
+  - **Python Crash Course** by Eric Matthes — approachable way to build the scripting base you will reuse everywhere.
+  - **Python Notes for Professionals** (GoalKicker) — quick-reference companion while practicing.
+  - **The C Programming Language (2nd Edition)** by Kernighan & Ritchie — systems-level literacy for low-level security work.
+  - **C++ for Hackers** by Steve Oualline — extends C foundations into modern C++ with a security mindset.
+- **Operating Systems & Linux**
+  - **Linux Basics for Hackers** by OccupyTheWeb — command-line, permissions, and toolchain essentials.
+  - **Linux Command Line and Shell Scripting Bible** by Richard Blum & Christine Bresnahan — deeper shell automation and scripting coverage.
+  - **Linux System Programming** by Robert Love — bridges user space and kernel interactions.
+- **Networking Fundamentals**
+  - **CCNA 200-301 Official Cert Guide** — structured walkthrough of networking core concepts.
+  - **TCP/IP in C** by Michael J. Donahoo & Kenneth L. Calvert — applies networking theory through code.
+- **Web Foundations**
+  - **HTML & CSS: Design and Build Websites** by Jon Duckett — front-end basics that clarify web attack surfaces.
+  - **HTML5 Canvas** by Steve Fulton & Jeff Fulton — interactive graphics surface insights for client-side exploits.
+
+Tackle these first if any category feels unfamiliar; they shorten the time it takes to appreciate the security-focused titles that follow.
 
 ## 1. Foundations / General Cybersecurity & Mindset
 
