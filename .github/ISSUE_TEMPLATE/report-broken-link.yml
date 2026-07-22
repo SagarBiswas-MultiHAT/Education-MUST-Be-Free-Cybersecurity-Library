@@ -1,0 +1,25 @@
+name: 🔗 Report Broken Link or File Concern
+description: Report an issue with a link, missing Drive file, or outdated resource.
+title: "[Link Issue]: "
+labels: ["bug", "broken-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us keep the library functional and accurate! Report broken links or missing resources below.
+
+  - type: input
+    id: resource_name
+    attributes:
+      label: Book Title / Link Name
+      placeholder: "e.g. Google Drive Link / Section 3 Web Hacking 101"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Issue
+      placeholder: "Explain what happens when accessing the link or what file is missing."
+    validations:
+      required: true

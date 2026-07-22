@@ -1,0 +1,17 @@
+name: ✏️ General Improvement / Typo / Formatting
+description: Propose an improvement to formatting, section layout, or fix a typo.
+title: "[Improvement]: "
+labels: ["documentation", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggest general improvements to the README, roadmap, or documentation structure.
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Proposed Improvement
+      placeholder: "Describe what you would like to change or fix."
+    validations:
+      required: true

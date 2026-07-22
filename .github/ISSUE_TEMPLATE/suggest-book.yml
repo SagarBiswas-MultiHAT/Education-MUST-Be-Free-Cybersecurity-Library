@@ -1,0 +1,67 @@
+name: 📚 Suggest a Book or Resource
+description: Recommend a cybersecurity book or learning resource to be added to the library.
+title: "[Book Suggestion]: "
+labels: ["enhancement", "resource-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a resource to enrich the Cybersecurity Library! Please provide the details below.
+
+  - type: input
+    id: book_title
+    attributes:
+      label: Book / Resource Title
+      placeholder: "e.g. Practical Malware Analysis"
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author(s)
+      placeholder: "e.g. Michael Sikorski & Andrew Honig"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Targeted Domain / Section
+      options:
+        - "0. Supporting / Prerequisite Resources"
+        - "1. Foundations / General Cybersecurity & Mindset"
+        - "2. Penetration Testing / Red Team Methodology"
+        - "3. Web Application Security & Bug Bounties"
+        - "4. Network Security & Monitoring"
+        - "5. Exploit Development & Binary / Memory Vulnerabilities"
+        - "6. Reverse Engineering & Malware Analysis"
+        - "7. Mobile Application Security"
+        - "8. Cryptography"
+        - "9. Defensive Security / Incident Response"
+        - "10. Programming & Secure Coding"
+        - "11. Scripting, Tooling & Automation"
+        - "12. Browser & Client-Side Security"
+        - "13. Social Engineering & Human Factors"
+        - "14. Specialized / Miscellaneous Extras"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty Level
+      options:
+        - "🟢 Beginner"
+        - "🟡 Intermediate"
+        - "🔴 Advanced"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Why should this book be added?
+      placeholder: "Describe in 1–2 sentences what unique value or practical skill this book offers to self-study learners."
+    validations:
+      required: true

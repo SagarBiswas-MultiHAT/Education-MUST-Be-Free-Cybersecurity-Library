@@ -1,212 +1,287 @@
-# Self-Study MUST Be Free: Cybersecurity Library
+# 🛡️ Awesome Cybersecurity Books
 
-A curated shelf of cybersecurity, hacking, and supporting fundamentals collected so that anyone can self-study without a paywall. The books live in the repository root; this guide explains how they fit together and how to chart your own path.
+<p align="center">
+  <em>A curated, structured shelf of 70+ cybersecurity, hacking, and supporting fundamentals organized by domain and difficulty—no paywall required.</em>
+</p>
 
-### Google Drive Link: https://drive.google.com/drive/folders/1eocSz3hnalhkdJ_LfNKuXWADwRp_M23L?usp=sharing
-
-## How to Use This Library
-
-- Start with the **Supporting / Prerequisite** titles if you are brand new to programming, operating systems, or networking.
-- Within every domain, books are ordered **beginner -> intermediate -> advanced** so you can ramp up smoothly.
-- Notes stay tightly coupled to each title; there are no hidden assumptions or external prerequisites beyond what is stated.
-- Mix and match based on your goals, but resist the urge to skip foundations; they unlock every advanced topic here.
-- If you notice an essential title missing, open an issue or PR so the community can keep this list living.
-
-## Table of Contents
-
-0. [Supporting / Prerequisite Resources](#supporting--prerequisite-resources)
-1. [Foundations / General Cybersecurity & Mindset](#1-foundations--general-cybersecurity--mindset)
-2. [Penetration Testing / Red Team Methodology](#2-penetration-testing--red-team-methodology)
-3. [Web Application Security & Bug Bounties](#3-web-application-security--bug-bounties)
-4. [Network Security & Monitoring](#4-network-security--monitoring)
-5. [Exploit Development & Binary / Memory Vulnerabilities](#5-exploit-development--binary--memory-vulnerabilities)
-6. [Reverse Engineering & Malware Analysis](#6-reverse-engineering--malware-analysis)
-7. [Mobile Application Security](#7-mobile-application-security)
-8. [Cryptography](#8-cryptography)
-9. [Defensive Security / Incident Response](#9-defensive-security--incident-response)
-10. [Programming & Secure Coding](#10-programming--secure-coding)
-11. [Scripting, Tooling & Automation](#11-scripting-tooling--automation)
-12. [Browser & Client-Side Security](#12-browser--client-side-security)
-13. [Social Engineering & Human Factors](#13-social-engineering--human-factors)
-14. [Specialized / Miscellaneous Extras](#14-specialized--miscellaneous-extras)
-15. [Suggested Learning Path](#15-suggested-learning-path)
-16. [Quick Tips](#quick-tips)
-17. [Contributing](#contributing)
+<p align="center">
+  <a href="https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/stargazers"><img src="https://img.shields.io/github/stars/SagarBiswas-MultiHAT/awesome-cybersecurity-books?style=for-the-badge&color=gold" alt="GitHub stars"></a>
+  <a href="https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/network/members"><img src="https://img.shields.io/github/forks/SagarBiswas-MultiHAT/awesome-cybersecurity-books?style=for-the-badge&color=blue" alt="GitHub forks"></a>
+  <a href="https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-green.svg?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/commits/main"><img src="https://img.shields.io/github/last-commit/SagarBiswas-MultiHAT/awesome-cybersecurity-books?style=for-the-badge&color=orange" alt="Last Commit"></a>
+  <a href="https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/graphs/contributors"><img src="https://img.shields.io/github/contributors/SagarBiswas-MultiHAT/awesome-cybersecurity-books?style=for-the-badge&color=purple" alt="Contributors"></a>
+</p>
 
 ---
 
-## Supporting / Prerequisite Resources
+### 📂 Direct Drive Library Access
+👉 **[Access Full Google Drive Library Folder](https://drive.google.com/drive/folders/1eocSz3hnalhkdJ_LfNKuXWADwRp_M23L?usp=sharing)**
 
-- **Programming Fundamentals**
-  - **Python Crash Course** by Eric Matthes — approachable way to build the scripting base you will reuse everywhere.
-  - **Python Notes for Professionals** (GoalKicker) — quick-reference companion while practicing.
-  - **The C Programming Language (2nd Edition)** by Kernighan & Ritchie — systems-level literacy for low-level security work.
-  - **C++ for Hackers** by Steve Oualline — extends C foundations into modern C++ with a security mindset.
-- **Operating Systems & Linux**
-  - **Linux Basics for Hackers** by OccupyTheWeb — command-line, permissions, and toolchain essentials.
-  - **Linux Command Line and Shell Scripting Bible** by Richard Blum & Christine Bresnahan — deeper shell automation and scripting coverage.
-  - **Linux System Programming** by Robert Love — bridges user space and kernel interactions.
-- **Networking Fundamentals**
-  - **CCNA 200-301 Official Cert Guide** — structured walkthrough of networking core concepts.
-  - **TCP/IP in C** by Michael J. Donahoo & Kenneth L. Calvert — applies networking theory through code.
-- **Web Foundations**
-  - **HTML & CSS: Design and Build Websites** by Jon Duckett — front-end basics that clarify web attack surfaces.
-  - **HTML5 Canvas** by Steve Fulton & Jeff Fulton — interactive graphics surface insights for client-side exploits.
+---
 
-Tackle these first if any category feels unfamiliar; they shorten the time it takes to appreciate the security-focused titles that follow.
+## ⚡ Why This Library?
 
-## 1. Foundations / General Cybersecurity & Mindset
+Unlike flat "awesome lists" that dump hundreds of unsorted links, this repository provides a **guided, battle-tested curriculum**:
 
-- **The Cybersecurity Playbook** by Allison Cerra — program, process, and operational perspective for defenders.
-- **The Basics of Hacking and Penetration Testing** by Patrick Engebretson — practical first steps into pentesting workflows.
-- **CEH v10** by Ric Messier — certification-friendly breadth across core security domains.
-- **Ethical Hacking: A Hands-on Introduction to Breaking In** by Daniel G. Graham — lab-driven entry point.
-- **Ethical Hacking: Techniques, Tools, and Countermeasures** by Michael G. Solomon & Sean-Philip Oriyano — focuses on practical defense-aware techniques.
+- 📊 **Ordered by Difficulty**: Within every domain, books progress strictly from **🟢 Beginner → 🟡 Intermediate → 🔴 Advanced**.
+- 🗺️ **Structured Learning Roadmap**: Clear progression paths depending on your career goals (Red Team, Blue Team, Reverse Engineering, Web Security).
+- 🔓 **100% Free Self-Study**: Designed so anyone can start from scratch without hitting a paywall.
+- 🤝 **Community Maintained**: Living list continuously updated by security researchers and practitioners.
 
-## 2. Penetration Testing / Red Team Methodology
+---
 
-- **The Hacker Playbook 3: Practical Guide to Penetration Testing** by Peter Kim — playbook approach to planning and executing attacks.
-- **Hacking: The Art of Exploitation (2nd Edition)** by Jon Erickson — foundational exploitation concepts with C and assembly labs.
-- **Advanced Penetration Testing** (Wiley) — red-team tradecraft and adversary simulation.
-- **Metasploit: The Penetration Tester's Guide** by David Kennedy et al. — tool-driven exploitation workflows.
-- **Coding for Penetration Testers** by Jason Andress & Ryan Linn — building custom tooling in support of engagements.
+## 🗺️ Visual Learning Path
 
-## 3. Web Application Security & Bug Bounties
+```mermaid
+graph TD
+    A["🔰 0. Supporting / Prerequisites<br/>(Python, C, Linux, Networking, HTML/CSS)"] --> B["📘 1. Foundations & Mindset<br/>(Ethical Hacking Intro, Security Playbook)"]
+    
+    B --> C1["🌐 Track A: Web Security"]
+    B --> C2["⚔️ Track B: Red Teaming"]
+    B --> C3["🔬 Track C: Exploit & RE"]
+    B --> C4["🛡️ Track D: Defense & IR"]
 
-- **Web Hacking 101** by Peter Yaworski — gentle intro to web vulns and bounty hunting.
-- **The Web Application Hacker's Handbook** by Dafydd Stuttard & Marcus Pinto — deep-dive testing methodology.
-- **WEB_HACKING** by Dafydd Stuttard & Marcus Pinto — companion reference covering additional scenarios.
-- **OWASP Testing Guide v2 / v3 / v4** — community checklists and methodology for consistent assessments.
-- **Real-World Bug Hunting** by Peter Yaworski — modern web bounty case studies.
-- **XSS Sheet** by Rodolfo Assis — payload reference for client-side injection.
-- **The Browser Hacker's Handbook** by Wade Alcorn et al. — browser internals and client-side exploitation.
+    C1 --> D1["🟢 Web Hacking 101<br/>🟡 WAHH & OWASP Guide<br/>🔴 Browser Hacker's Handbook"]
+    C2 --> D2["🟢 Basics of Pentesting<br/>🟡 Hacker Playbook 3<br/>🔴 Advanced Pentesting & Metasploit"]
+    C3 --> D3["🟢 Art of Exploitation<br/>🟡 Shellcoder's Handbook<br/>🔴 Practical Malware Analysis & RE"]
+    C4 --> D4["🟢 Cybersecurity Playbook<br/>🟡 Network Security Monitoring<br/>🔴 Antivirus Hacker's Handbook"]
 
-### SQL / Database Attack Subset
+    D1 --> E["🏆 Research & Mastery"]
+    D2 --> E
+    D3 --> E
+    D4 --> E
+```
 
-- **All About SQL** — baseline SQL knowledge to understand relational targets.
-- **Blind SQL Injection** by Kevin Spett — handling blind and time-based exploitation.
-- **Advanced SQL Injection** by Justin Seitz — evasion and advanced payload strategies.
+---
 
-## 4. Network Security & Monitoring
+## 📌 Legend & Difficulty Tags
+- 🟢 **Beginner**: Accessible entry point. Requires minimal prior security background.
+- 🟡 **Intermediate**: Requires solid networking, operating systems, or programming literacy.
+- 🔴 **Advanced**: Low-level internals, assembly, kernel manipulation, and complex vulnerability engineering.
 
-- **CCNA 200-301 Official Cert Guide** — networking fundamentals to anchor later material.
-- **The Practice of Network Security Monitoring** by Richard Bejtlich — detection, SOC operations, and network-centric defense.
-- **TCP/IP in C** by Michael J. Donahoo & Kenneth L. Calvert — network programming with TCP/IP internals.
-- **Sockets in C** by Panagiota Fatourou & Eleftherios Kosmas — socket patterns for tooling and exploit development.
+---
 
-## 5. Exploit Development & Binary / Memory Vulnerabilities
+## 📋 Table of Contents
 
-- **The Shellcoder's Handbook** by Chris Anley et al. — shellcode craft and vulnerability classes.
-- **Buffer Overflow Exploitation** by Chester Rebeiro — practical overflow walk-throughs.
-- **Linux Stack Based Buffer Overflow Exploitation** by Saif El-Sherei — Linux-specific exploitation flow.
-- **Hacking: The Art of Exploitation** — revisit here for its low-level focus.
-- **Linux Assembly** by Jeff Duntemann — assembly primer tailored to Linux environments.
-- **The Art of High Level Assembly** by Randall Hyde — advanced assembly techniques.
-- **OS Dev** by Nick Blundell & **Linux System Programming** by Robert Love — kernel and syscall background for advanced exploit work.
+0. [Supporting / Prerequisite Resources (11 Books)](#0-supporting--prerequisite-resources-11-books)
+1. [Foundations / General Cybersecurity & Mindset (5 Books)](#1-foundations--general-cybersecurity--mindset-5-books)
+2. [Penetration Testing / Red Team Methodology (5 Books)](#2-penetration-testing--red-team-methodology-5-books)
+3. [Web Application Security & Bug Bounties (10 Books)](#3-web-application-security--bug-bounties-10-books)
+4. [Network Security & Monitoring (4 Books)](#4-network-security--monitoring-4-books)
+5. [Exploit Development & Binary / Memory Vulnerabilities (8 Books)](#5-exploit-development--binary--memory-vulnerabilities-8-books)
+6. [Reverse Engineering & Malware Analysis (6 Books)](#6-reverse-engineering--malware-analysis-6-books)
+7. [Mobile Application Security (4 Books)](#7-mobile-application-security-4-books)
+8. [Cryptography (2 Books)](#8-cryptography-2-books)
+9. [Defensive Security / Incident Response (3 Books)](#9-defensive-security--incident-response-3-books)
+10. [Programming & Secure Coding (6 Books)](#10-programming--secure-coding-6-books)
+11. [Scripting, Tooling & Automation (7 Books)](#11-scripting-tooling--automation-7-books)
+12. [Browser & Client-Side Security (4 Books)](#12-browser--client-side-security-4-books)
+13. [Social Engineering & Human Factors (2 Books)](#13-social-engineering--human-factors-2-books)
+14. [Specialized / Miscellaneous Extras (5 Books)](#14-specialized--miscellaneous-extras-5-books)
+15. [Suggested Learning Path](#15-suggested-learning-path)
+16. [Contributing](#contributing)
 
-## 6. Reverse Engineering & Malware Analysis
+---
 
-- **Practical Malware Analysis** by Michael Sikorski & Andrew Honig — hands-on lab series for malware dissection.
-- **Practical Malware Analysis (Hands-on Introduction)** — alternate print; same lab flow for redundancy.
-- **Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tools** by Bruce Dang et al. — architecture-spanning RE techniques.
-- **The Art of Computer Virus Research and Defense** by Peter Szor — theoretical and historical grounding.
-- **The Antivirus Hacker's Handbook** by Joxean Koret & Elias Bachaalany — antivirus internals and bypassing strategies.
-- **The Android Malware Handbook** by Qian Han et al. — mobile-focused malware reverse engineering.
+## 0. Supporting / Prerequisite Resources (11 Books)
 
-## 7. Mobile Application Security
+Tackle these first if any fundamental category feels unfamiliar; they shorten the time required to appreciate the security-focused titles.
 
-- **Android Hacker's Handbook** by Joshua J. Drake et al. — platform internals and exploit paths.
-- **The Mobile Application Hacker's Handbook** by Dominic Chell et al. — mobile assessment methodology.
-- **Hacking Android** by Srinivasa Rao Koti — hands-on Android exploitation projects.
-- **The Android Malware Handbook** — revisit for defensive/reverse engineering perspective.
+### Programming Fundamentals
+- 🟢 **Python Crash Course** by Eric Matthes — Approachable way to build the scripting foundation you will reuse everywhere.
+- 🟢 **Python Notes for Professionals** (GoalKicker) — Quick-reference companion while practicing Python.
+- 🟡 **The C Programming Language (2nd Edition)** by Kernighan & Ritchie — Essential systems-level literacy required for low-level security work.
+- 🟡 **C++ for Hackers** by Steve Oualline — Extends C foundations into modern C++ with a security mindset.
 
-## 8. Cryptography
+### Operating Systems & Linux
+- 🟢 **Linux Basics for Hackers** by OccupyTheWeb — Command-line, permissions, networking, and security toolchain essentials.
+- 🟡 **Linux Command Line and Shell Scripting Bible** by Richard Blum & Christine Bresnahan — Deeper shell automation and scripting coverage.
+- 🔴 **Linux System Programming** by Robert Love — Bridges user space, system calls, and kernel interactions.
 
-- **Applied Cryptography** by Bruce Schneier — classic treatise blending theory and practice.
-- **Cryptography in C and C++ (2nd Edition)** by Michael Welschenbach & David Kramer — implementation guidance bridging theory to code.
+### Networking Fundamentals
+- 🟢 **CCNA 200-301 Official Cert Guide** by Wendell Odom — Structured walkthrough of networking core concepts (TCP/IP, routing, switching).
+- 🟡 **TCP/IP in C** by Michael J. Donahoo & Kenneth L. Calvert — Applies networking theory directly through C sockets code.
 
-## 9. Defensive Security / Incident Response
+### Web Fundamentals
+- 🟢 **HTML & CSS: Design and Build Websites** by Jon Duckett — Front-end basics that clarify web attack surfaces.
+- 🟡 **HTML5 Canvas** by Steve Fulton & Jeff Fulton — Interactive graphics surface insights for client-side exploits.
 
-- **The Practice of Network Security Monitoring** — repeat entry for defensive operations.
-- **The Cybersecurity Playbook** — incident response planning and runbooks.
-- Pair with **Practical Malware Analysis** and **The Antivirus Hacker's Handbook** for end-to-end defense.
+---
 
-## 10. Programming & Secure Coding
+## 1. Foundations / General Cybersecurity & Mindset (5 Books)
 
-- **The C Programming Language (2nd Edition)** by Kernighan & Ritchie — foundational C literacy.
-- **C++ for Hackers** by Steve Oualline — C++ concepts framed for security engineers.
-- **Best Book to Master C++ Programming** by Bjarne Stroustrup — deep dive into C++.
-- **Advanced Data Structures in C++** by Peter Brass — algorithmic grounding.
-- **Sockets in C** and **Programmer's Guide to NCurses** by Dan Gookin — system programming utilities.
+- 🟢 **The Cybersecurity Playbook** by Allison Cerra — Programmatic, operational, and managerial perspective for defenders.
+- 🟢 **The Basics of Hacking and Penetration Testing** by Patrick Engebretson — Practical first steps into penetration testing workflows.
+- 🟢 **Ethical Hacking: A Hands-on Introduction to Breaking In** by Daniel G. Graham — Lab-driven entry point to ethical hacking.
+- 🟡 **CEH v10** by Ric Messier — Certification-friendly overview across core security domains.
+- 🟡 **Ethical Hacking: Techniques, Tools, and Countermeasures** by Michael G. Solomon & Sean-Philip Oriyano — Practical defense-aware offensive techniques.
 
-## 11. Scripting, Tooling & Automation
+---
 
-- **Black Hat Python** by Justin Seitz (2014) & by Justin Seitz & Tim Arnold (2021) — offensive python automation and tooling.
-- **50 Useful Python Scripts** — small, actionable automation examples.
-- **Python Crash Course** by Eric Matthes — beginner-friendly Python primer.
-- **Python Notes for Professionals** (GoalKicker) — reference-style recap of core concepts.
-- **Python Complete Notes** by QuantInsti & **Coding Games in Python** — practice-heavy reinforcement.
-- **Black Hat Bash** by Dolev Farhi & Nick Aleks — shell scripting for offensive and automation scenarios.
-- **Coding for Penetration Testers** — revisit for cross-language tooling guidance.
+## 2. Penetration Testing / Red Team Methodology (5 Books)
 
-## 12. Browser & Client-Side Security
+- 🟢 **Coding for Penetration Testers** by Jason Andress & Ryan Linn — Building custom scripting tooling in support of security engagements.
+- 🟡 **Metasploit: The Penetration Tester's Guide** by David Kennedy et al. — Tool-driven exploitation methodologies and framework usage.
+- 🟡 **The Hacker Playbook 3: Practical Guide to Penetration Testing** by Peter Kim — Playbook approach to planning and executing modern offensive engagements.
+- 🟡 **Hacking: The Art of Exploitation (2nd Edition)** by Jon Erickson — Foundational exploitation concepts with C and assembly hands-on labs.
+- 🔴 **Advanced Penetration Testing** (Wiley) — Red-team tradecraft, complex adversary simulation, and stealth methodology.
 
-- **The Browser Hacker's Handbook** — central guide to browser attack surfaces.
-- **HTML, CSS: Design and Build Websites** by Jon Duckett — web presentation fundamentals.
-- **HTML5 Canvas** — graphics and scriptable canvas insight for client-side attack surface.
-- **The Web Application Hacker's Handbook** & **XSS Sheet** — practical payload design.
+---
 
-## 13. Social Engineering & Human Factors
+## 3. Web Application Security & Bug Bounties (10 Books)
 
-- **Social Engineering: The Art of Human Hacking** by Christopher Hadnagy — reconnaissance and manipulation tactics.
-- **The Science of Human Hacking** by Chris Hadnagy — data-driven perspective on social engineering.
+- 🟢 **Web Hacking 101** by Peter Yaworski — Gentle intro to web vulnerabilities and bug bounty hunting case studies.
+- 🟢 **All About SQL** — Baseline database knowledge required to understand relational targets.
+- 🟡 **Real-World Bug Hunting** by Peter Yaworski — Modern web bug bounty case studies, reconnaissance, and exploitation strategies.
+- 🟡 **The Web Application Hacker's Handbook** by Dafydd Stuttard & Marcus Pinto — Deep-dive testing methodology for web apps.
+- 🟡 **OWASP Testing Guide (v2 / v3 / v4)** — Community standard checklists and methodology for consistent web assessments.
+- 🟡 **Blind SQL Injection** by Kevin Spett — Handling blind, time-based, and out-of-band database exploitation.
+- 🔴 **The Browser Hacker's Handbook** by Wade Alcorn et al. — Browser internals, DOM manipulation, and client-side exploitation.
+- 🔴 **Advanced SQL Injection** by Justin Seitz — Evasion techniques, filter bypasses, and advanced payload strategies.
+- 🔴 **XSS Sheet** by Rodolfo Assis — Payload reference and edge cases for client-side injection attacks.
+- 🔴 **WEB_HACKING** by Dafydd Stuttard & Marcus Pinto — Companion reference covering advanced web application attack scenarios.
 
-## 14. Specialized / Miscellaneous Extras
+---
 
-- **Real-World Bug Hunting** & **Web Hacking 101** — applied bounty hunting stories and workflows.
-- **The Antivirus Hacker's Handbook** & **The Art of Computer Virus Research and Defense** — advanced malware/AV research.
-- **Metasploit: The Penetration Tester's Guide** & **The Hacker Playbook 3** — offensive toolsets and playbooks.
-- **VS Code Shortcuts** — productivity booster for building and testing tooling quickly.
-- **Top 40 Python Interview Questions & Answers** — prep for technical interviews.
+## 4. Network Security & Monitoring (4 Books)
+
+- 🟢 **CCNA 200-301 Official Cert Guide** — Core networking foundations to anchor packet analysis and monitoring.
+- 🟡 **The Practice of Network Security Monitoring** by Richard Bejtlich — Intrusion detection, SOC operations, and network-centric defense.
+- 🟡 **TCP/IP in C** by Michael J. Donahoo & Kenneth L. Calvert — Low-level network programming with TCP/IP protocol internals.
+- 🟡 **Sockets in C** by Panagiota Fatourou & Eleftherios Kosmas — Socket patterns for security tooling and network exploit development.
+
+---
+
+## 5. Exploit Development & Binary / Memory Vulnerabilities (8 Books)
+
+- 🟢 **Linux Stack Based Buffer Overflow Exploitation** by Saif El-Sherei — Step-by-step Linux stack overflow walkthroughs.
+- 🟡 **Buffer Overflow Exploitation** by Chester Rebeiro — Practical overflow walk-throughs and memory execution flow control.
+- 🟡 **Hacking: The Art of Exploitation** by Jon Erickson — Low-level C programming, stack manipulation, and shellcode construction.
+- 🟡 **Linux Assembly** by Jeff Duntemann — Assembly primer tailored specifically to Linux environments.
+- 🔴 **The Shellcoder's Handbook** by Chris Anley et al. — Advanced shellcode craft, vulnerability classes, and architecture bypasses.
+- 🔴 **The Art of High Level Assembly** by Randall Hyde — Advanced assembly programming techniques for security analysts.
+- 🔴 **OS Dev** by Nick Blundell — Bare-metal operating system development concepts.
+- 🔴 **Linux System Programming** by Robert Love — System calls, kernel interface background, and memory management for exploit writers.
+
+---
+
+## 6. Reverse Engineering & Malware Analysis (6 Books)
+
+- 🟢 **Practical Malware Analysis** by Michael Sikorski & Andrew Honig — The gold-standard hands-on lab series for malware dissection.
+- 🟡 **The Android Malware Handbook** by Qian Han et al. — Mobile-focused reverse engineering and Android malware analysis.
+- 🟡 **The Art of Computer Virus Research and Defense** by Peter Szor — Theoretical and historical grounding in virus construction and defense.
+- 🔴 **Practical Reverse Engineering** by Bruce Dang et al. — Covers x86, x64, ARM, Windows Kernel, and reverse engineering toolchains.
+- 🔴 **The Antivirus Hacker's Handbook** by Joxean Koret & Elias Bachaalany — Antivirus internals, engine architecture, and evasion strategies.
+- 🔴 **Practical Malware Analysis (Hands-on Lab Edition)** — Alternate reference guide covering lab execution and sample isolation.
+
+---
+
+## 7. Mobile Application Security (4 Books)
+
+- 🟢 **Hacking Android** by Srinivasa Rao Koti — Hands-on Android exploitation projects and setup.
+- 🟡 **The Mobile Application Hacker's Handbook** by Dominic Chell et al. — Mobile application security testing methodology (iOS & Android).
+- 🟡 **The Android Malware Handbook** — Android malware reverse engineering, unpacking, and dynamic analysis.
+- 🔴 **Android Hacker's Handbook** by Joshua J. Drake et al. — Deep platform internals, kernel drivers, and Android exploit paths.
+
+---
+
+## 8. Cryptography (2 Books)
+
+- 🟡 **Cryptography in C and C++ (2nd Edition)** by Michael Welschenbach — Implementation guidance bridging mathematical theory to code.
+- 🔴 **Applied Cryptography** by Bruce Schneier — Classic treatise blending cryptographic protocols, algorithms, and real-world usage.
+
+---
+
+## 9. Defensive Security / Incident Response (3 Books)
+
+- 🟢 **The Cybersecurity Playbook** — Incident response planning, organizational defense, and SOC runbooks.
+- 🟡 **The Practice of Network Security Monitoring** — Threat hunting, continuous monitoring, and detection engineering.
+- 🔴 Pair with **Practical Malware Analysis** and **The Antivirus Hacker's Handbook** for end-to-end incident investigation.
+
+---
+
+## 10. Programming & Secure Coding (6 Books)
+
+- 🟢 **The C Programming Language (2nd Edition)** by Kernighan & Ritchie — Foundational C literacy for security engineers.
+- 🟢 **Programmer's Guide to NCurses** by Dan Gookin — System programming UI utilities.
+- 🟡 **C++ for Hackers** by Steve Oualline — C++ programming concepts framed specifically for security practitioners.
+- 🟡 **Best Book to Master C++ Programming** by Bjarne Stroustrup — Comprehensive deep dive into standard C++.
+- 🟡 **Sockets in C** — Network socket programming utilities and secure I/O.
+- 🔴 **Advanced Data Structures in C++** by Peter Brass — Algorithmic grounding for low-level optimization and research.
+
+---
+
+## 11. Scripting, Tooling & Automation (7 Books)
+
+- 🟢 **50 Useful Python Scripts** — Small, actionable automation examples for daily security workflows.
+- 🟢 **Python Crash Course** by Eric Matthes — Beginner-friendly Python scripting primer.
+- 🟢 **Python Notes for Professionals** (GoalKicker) — Reference-style recap of core language features.
+- 🟢 **Coding Games in Python** — Fun practice-heavy scripting reinforcement.
+- 🟡 **Black Hat Python** by Justin Seitz & Tim Arnold — Offensive Python automation, raw sockets, and payload crafting.
+- 🟡 **Black Hat Bash** by Dolev Farhi & Nick Aleks — Shell scripting for offensive and defensive automation scenarios.
+- 🟡 **Python Complete Notes** by QuantInsti — Advanced scripting and data manipulation reference.
+
+---
+
+## 12. Browser & Client-Side Security (4 Books)
+
+- 🟢 **HTML, CSS: Design and Build Websites** by Jon Duckett — Front-end presentation fundamentals.
+- 🟡 **HTML5 Canvas** — Graphics internals and scriptable attack surfaces.
+- 🟡 **The Web Application Hacker's Handbook** & **XSS Sheet** — Practical payload design and DOM analysis.
+- 🔴 **The Browser Hacker's Handbook** — Central authority on browser sandboxes, extensions, and client-side exploits.
+
+---
+
+## 13. Social Engineering & Human Factors (2 Books)
+
+- 🟢 **Social Engineering: The Art of Human Hacking** by Christopher Hadnagy — Reconnaissance, influence, and physical tactics.
+- 🟡 **The Science of Human Hacking** by Chris Hadnagy — Data-driven perspective and psychological mechanics of social engineering.
+
+---
+
+## 14. Specialized / Miscellaneous Extras (5 Books)
+
+- 🟢 **VS Code Shortcuts** — Productivity guide for building security tools and writing scripts quickly.
+- 🟢 **Top 40 Python Interview Questions & Answers** — Technical interview preparation for security/developer roles.
+- 🟡 **Real-World Bug Hunting** & **Web Hacking 101** — Applied bounty hunting stories and methodology.
+- 🟡 **Metasploit: The Penetration Tester's Guide** & **The Hacker Playbook 3** — Offensive toolsets and engagement runbooks.
+- 🔴 **The Antivirus Hacker's Handbook** & **The Art of Computer Virus Research** — Advanced malware and security software research.
 
 ---
 
 ## 15. Suggested Learning Path
 
-**Foundations & Prerequisites**
+### Phase 1: Prerequisites & Foundations (1–2 Months)
+1. **Networking**: Start with **CCNA 200-301** or the overview in **TCP/IP in C**.
+2. **Linux**: Master command-line basics using **Linux Basics for Hackers**.
+3. **Scripting**: Build your automation base with **Python Crash Course**.
 
-- Networking: start with **CCNA 200-301** or the higher-level overview in **TCP/IP in C**.
-- Linux & Shell: pair the repository with **Linux Basics for Hackers** and **Linux Command Line and Shell Scripting** (add these locally if missing).
-- Programming: **Python Crash Course** for scripting, then **The C Programming Language** for systems depth.
+### Phase 2: Choose Your Primary Track (2–4 Months)
 
-**Core Offensive & Defensive Skills**
+#### Track A: Web Application Security / Bug Bounties
+- `Web Hacking 101` ➔ `Real-World Bug Hunting` ➔ `The Web Application Hacker's Handbook` ➔ `OWASP Testing Guide`
 
-- Web Focus: **Web Hacking 101** → **The Web Application Hacker's Handbook** → **OWASP Testing Guide**.
-- Pentesting: **The Basics of Hacking and Penetration Testing** → **The Hacker Playbook 3** → **Metasploit Guide**.
+#### Track B: Penetration Testing / Red Teaming
+- `Basics of Hacking & Pentesting` ➔ `The Hacker Playbook 3` ➔ `Metasploit Guide` ➔ `Advanced Penetration Testing`
 
-**Specialization Tracks**
+#### Track C: Exploit Development & Reverse Engineering
+- `The C Programming Language` ➔ `Hacking: Art of Exploitation` ➔ `Shellcoder's Handbook` ➔ `Practical Reverse Engineering` ➔ `Practical Malware Analysis`
 
-- Exploit Dev & Reverse Engineering: **Art of Exploitation** → **Shellcoder's Handbook** → **Practical Reverse Engineering** → **Practical Malware Analysis**.
-- Mobile: **Android Hacker's Handbook** → **Mobile Application Hacker's Handbook** → **Android Malware Handbook**.
-- Malware Analysis & Defense: **Practical Malware Analysis** → **Antivirus Hacker's Handbook** → **Art of Computer Virus Research and Defense**.
-- Network Defense: **Practice of Network Security Monitoring** → **Cybersecurity Playbook** → add log analysis practice sets.
+#### Track D: Defensive Security / SOC Analyst
+- `Cybersecurity Playbook` ➔ `Practice of Network Security Monitoring` ➔ `Practical Malware Analysis`
 
-**Advanced & Research**
+---
 
-- Dive into **Advanced Penetration Testing**, **Advanced SQL Injection**, **Black Hat Python**, **Black Hat Bash**, and current research papers once core skills feel comfortable.
+## 🤝 Contributing
 
-## Quick Tips
+Contributions are warmly welcomed! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) guide before submitting suggestions or Pull Requests.
 
-- Anchor your workflow in **Python** and **Linux basics**; most tooling and labs assume both.
-- Use the **OWASP Testing Guide** alongside **The Web Application Hacker's Handbook** when targeting web apps.
-- For exploit development, expect to invest serious time into **C**, assembly, and operating system internals.
-- Hold off on malware reverse engineering titles until debugging, disassembly, and assembly feel natural.
-- Document lab work as you go; these books are dense and repetition cements knowledge.
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) and [Security Policy](SECURITY.md).
 
-## Contributing
+---
 
-- Spot a missing cornerstone title? Open an issue or submit a PR with the book name, author, and why it matters.
-- Found a better resource order or new edition? Share your reasoning so others can benefit.
-- Keep notes concise and tied to the title—this project is about clarity over verbosity.
+## 📜 License
 
-Knowledge should be accessible. Welcome aboard, and happy studying.
+This curated educational repository is distributed under the **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**. See [LICENSE](LICENSE) for details.
+
+*Knowledge should be free and accessible to all. Happy studying!*
