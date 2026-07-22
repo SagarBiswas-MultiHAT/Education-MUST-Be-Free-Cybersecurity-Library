@@ -2,7 +2,7 @@
 
 ## Reporting Security Issues or Content Concerns
 
-The **Library of Cybersecurity Books** is a curated list of educational resources, guides, and learning roadmaps. It does not contain executable code, services, or deployed applications.
+The **Awesome Cybersecurity Books** repository is a curated list of educational resources, guides, and learning roadmaps. It does not contain executable code, services, or deployed applications.
 
 ### Copyright & Content Concerns
 If you are an author or copyright holder and have concerns regarding any listed resource or linked material:
