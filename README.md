@@ -20,7 +20,7 @@
 
 📍 **Pair this library with our hands-on [Penetration Testing Roadmap](https://github.com/SagarBiswas-MultiHAT/penetration-testing-roadmap)** (500+ free labs, OWASP Top 10, weekly curriculum).
 
-💬 **Join the Discussion:** [🛡️ Welcome to awesome-cybersecurity-books Discussions!](https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/discussions/3) | [💡 Book Suggestions & Missing Gems](https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/discussions/5)
+💬 **Join the Discussion:** [🛡️ Welcome to awesome-cybersecurity-books Discussions!](https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/discussions/3) || [💡 Book Suggestions & Missing Gems](https://github.com/SagarBiswas-MultiHAT/awesome-cybersecurity-books/discussions/5)
 
 ---
 
